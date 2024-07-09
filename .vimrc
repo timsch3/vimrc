@@ -6,6 +6,11 @@ set shiftwidth=4
 set expandtab
 set smartindent
 
+call plug#begin()
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+call plug#end()
+
 colorscheme retrobox
 syntax on
 
