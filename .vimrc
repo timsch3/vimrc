@@ -19,6 +19,6 @@ inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-l> <Right>
 nnoremap <Space>e :Vex<CR>
-nnoremap <leader><S-e> :Ex<CR>
-nnoremap <leader><CR> :so ~/.vimrc
-inoremap <leader>c <Esc>
+nnoremap <Space><S-e> :Ex<CR>
+nnoremap <Space><CR> :so ~/.vimrc
+inoremap <Space>c <Esc>
