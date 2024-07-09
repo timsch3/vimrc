@@ -18,8 +18,7 @@ inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-l> <Right>
-let mapleader = " "
-nnoremap <leader>e :Ex<CR>
-nnoremap <leader><S-e> :Vex<CR>
+nnoremap <Space>e :Vex<CR>
+nnoremap <leader><S-e> :Ex<CR>
 nnoremap <leader><CR> :so ~/.vimrc
 inoremap <leader>c <Esc>
