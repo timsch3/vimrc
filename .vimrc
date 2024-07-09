@@ -21,4 +21,3 @@ inoremap <C-l> <Right>
 nnoremap <Space>e :Vex<CR>
 nnoremap <Space><S-e> :Ex<CR>
 nnoremap <Space><CR> :so ~/.vimrc
-inoremap <Space>c <Esc>
