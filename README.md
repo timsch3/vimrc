@@ -1,6 +1,5 @@
 1. Install plugin manager  
-`curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`  
+`curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`  
 https://github.com/junegunn/vim-plug?tab=readme-ov-file#usage
 
 2. Install fzf  
