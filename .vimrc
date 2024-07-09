@@ -1,4 +1,4 @@
-set scrolloff=10
+set scrolloff=0
 set number
 set relativenumber
 set tabstop=4 softtabstop=4
@@ -22,9 +22,10 @@ inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-l> <Right>
+inoremap <C-j> <C-c>
 nnoremap <Space>e :Vex<CR>
 nnoremap <Space><S-e> :Ex<CR>
-nnoremap <Space><CR> :so ~/.vimrc
+nnoremap <Space><CR> :so ~/.vimrc<CR>
 nnoremap <Space>f :Files<CR>
 nnoremap <Space><S-f> :GFiles<CR>
 vnoremap <Space>y "+y
