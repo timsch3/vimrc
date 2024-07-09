@@ -21,3 +21,10 @@ cnoremap <C-h> <Left>
 cnoremap <C-j> <Down>
 cnoremap <C-k> <Up>
 cnoremap <C-l> <Right>
+
+" Shortcuts
+let mapleader = " "
+nnoremap <leader>e :Ex<CR>
+nnoremap <leader><S-e> :Vex<CR>
+nnoremap <leader><CR> :so ~/.vimrc
+inoremap <leader>c <Esc>
