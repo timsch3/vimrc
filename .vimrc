@@ -18,7 +18,6 @@ syntax on
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 
-" Shortcuts
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
@@ -26,3 +25,7 @@ inoremap <C-l> <Right>
 nnoremap <Space>e :Vex<CR>
 nnoremap <Space><S-e> :Ex<CR>
 nnoremap <Space><CR> :so ~/.vimrc
+nnoremap <Space>f :Files<CR>
+nnoremap <Space><S-f> :GFiles<CR>
+vnoremap <Space>y "+y
+nnoremap <Space>Y H"+yG
