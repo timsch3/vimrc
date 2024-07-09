@@ -5,6 +5,7 @@ set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
+
 colorscheme retrobox
 syntax on
 
@@ -12,17 +13,11 @@ syntax on
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 
-" Move normally by using Ctrl in insert or command mode
+" Shortcuts
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-l> <Right>
-cnoremap <C-h> <Left>
-cnoremap <C-j> <Down>
-cnoremap <C-k> <Up>
-cnoremap <C-l> <Right>
-
-" Shortcuts
 let mapleader = " "
 nnoremap <leader>e :Ex<CR>
 nnoremap <leader><S-e> :Vex<CR>
