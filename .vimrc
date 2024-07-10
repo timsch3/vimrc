@@ -6,21 +6,18 @@ set shiftwidth=4
 set expandtab
 set smartindent
 
-call plug#begin()
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'Valloric/YouCompleteMe'
-call plug#end()
-
-" For YouCompleteMe
-let g:ycm_clangd_binary_path = trim(system('brew --prefix llvm')).'/bin/clangd'
-
 colorscheme retrobox
 syntax on
 
 " Line cursor when in insert mode
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
+
+call plug#begin()
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'ervandew/supertab'
+call plug#end()
 
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
