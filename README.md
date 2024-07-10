@@ -8,3 +8,4 @@ https://github.com/junegunn/fzf.vim?tab=readme-ov-file#commands
 
 3. Autocomplete setup    
 `$ brew install macvim cmake python go nodejs`
+Inside .vim/**/YouCompleteMe/ `python3 install.py --all`
