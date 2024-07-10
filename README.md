@@ -7,4 +7,4 @@ https://github.com/junegunn/vim-plug?tab=readme-ov-file#usage
 https://github.com/junegunn/fzf.vim?tab=readme-ov-file#commands  
 
 3. Autocomplete setup    
-`$ brew install vim cmake python go nodejs`
+`$ brew install macvim cmake python go nodejs`
