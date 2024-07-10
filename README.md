@@ -6,5 +6,5 @@ https://github.com/junegunn/vim-plug?tab=readme-ov-file#usage
 `brew install fzf`  
 https://github.com/junegunn/fzf.vim?tab=readme-ov-file#commands  
 
-3. Autocomplete setup
+3. Autocomplete setup    
 `$ brew install vim cmake python go nodejs`
