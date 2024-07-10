@@ -9,9 +9,10 @@ set smartindent
 call plug#begin()
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'Valloric/YouCompleteMe'
 call plug#end()
 
-" For YCM
+" For YouCompleteMe
 let g:ycm_clangd_binary_path = trim(system('brew --prefix llvm')).'/bin/clangd'
 
 colorscheme retrobox
