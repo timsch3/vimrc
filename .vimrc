@@ -31,3 +31,4 @@ nnoremap <Space><S-f> :GFiles<CR>
 vnoremap <Space>y "+y
 nnoremap <Space>Y H"+yG
 nnoremap <Space>l $
+nnoremap <Space>h 0
