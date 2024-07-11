@@ -13,7 +13,7 @@ Plug 'ervandew/supertab'
 call plug#end()
 
 " the_silver_searcher full text search
-let g:ackprg = 'ag --nogroup --nocolor --column'
+let g:ackprg = 'ag --vimgrep'
 
 colorscheme retrobox
 syntax on
