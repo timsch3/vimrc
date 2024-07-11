@@ -23,7 +23,6 @@ inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-l> <Right>
-nnoremap <Esc> <C-c>
 nnoremap <Space>e :Vex<CR>
 nnoremap <Space><S-e> :Ex<CR>
 nnoremap <Space>f :Files<CR>
