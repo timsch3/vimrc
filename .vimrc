@@ -36,7 +36,7 @@ nnoremap <Space>l $
 nnoremap <Space>h 0
 nnoremap <Space>L G
 nnoremap <Space>H gg
-nnoremap <Space>j <C-d>
-nnoremap <Space>k <C-u>
-nnoremap <Space>J <C-f>
-nnoremap <Space>K <C-b>
+nnoremap <Space>j 10j
+nnoremap <Space>k 10k
+nnoremap <Space>J 20j
+nnoremap <Space>K 20k
