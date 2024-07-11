@@ -12,6 +12,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'ervandew/supertab'
 call plug#end()
 
+" the_silver_searcher full text search
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
 colorscheme retrobox
 syntax on
 
