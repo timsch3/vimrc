@@ -23,12 +23,20 @@ inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-l> <Right>
+nnoremap <Esc> <C-c>
 nnoremap <Space>e :Vex<CR>
 nnoremap <Space><S-e> :Ex<CR>
-nnoremap <Space><CR> :so ~/.vimrc<CR>
 nnoremap <Space>f :Files<CR>
 nnoremap <Space><S-f> :GFiles<CR>
+nnoremap <Space>v :History<CR>
+nnoremap <Space><CR> :so ~/.vimrc<CR>
 vnoremap <Space>y "+y
 nnoremap <Space>Y H"+yG
 nnoremap <Space>l $
 nnoremap <Space>h 0
+nnoremap <Space>L G
+nnoremap <Space>H gg
+nnoremap <Space>j <C-d>
+nnoremap <Space>k <C-u>
+nnoremap <Space>J <C-f>
+nnoremap <Space>K <C-b>
